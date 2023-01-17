@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: Debug Simple
+    debug:
+      msg: "Ansible pull test"
